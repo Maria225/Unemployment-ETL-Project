@@ -1,1 +1,3 @@
 # Unemployment-ETL-Project
+
+Data was extracted from https://www.bls.gov/ and https://www.zillow.com/. The goal was to gather the civilian labor population, unemployment rate, median household income, and median house prices for each New Jersey county between 2015 and 2018. The data was extracted using APIs, csv files, and text files. Then the data was imported into Pandas for cleaning and merging. In MySQL, a database with the appropriate tables was created. The final dataframes from Pandas were connected to the tables in the MySQL database. Finally, the data was queried in MySQL to return the desired outputs.
